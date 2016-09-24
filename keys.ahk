@@ -1,7 +1,7 @@
 SendMode Input
 
 $RCtrl::
-KeyWait, RCtrl, T0.1
+KeyWait, RCtrl, T0.3
 if ErrorLevel {
 	Send {Ctrl down}
 	KeyWait, RCtrl
@@ -12,7 +12,7 @@ if ErrorLevel {
 return
 
 $RShift::
-KeyWait, RShift, T0.1
+KeyWait, RShift, T0.3
 if ErrorLevel {
 	Send {RShift down}
 	KeyWait, RShift
